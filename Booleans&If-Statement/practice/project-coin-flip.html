@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coin-Flip-Game</title>
 </head>
 <body>
+    <script>
+        // // 1st part
+
+        // const ranNum = Math.random();
+        // if (ranNum <= 0.5 ) {
+        //     console.log ('Heads');
+        // } else{
+        //     console.log ('tails')
+        // }
+        
+        // // 2nd part. instead of console we can use a variable .
+
+        // const ranNum = Math.random();
+        // let result = '' ;
+
+        // if (ranNum <= 0.5 ) {
+        //     result = 'Heads';
+        // } else{
+        //     result = 'Tails'; 
+        // }
+
+        // const guess = 'Tails';
+
+        // if ( result === guess ) {
+        //     console.log ('You Win !');
+        // } else {
+        //     console.log ('You Lose !');
+        // }
+
+
+        // same thing with ternary operators
+
+        const ranNum = Math.random();
+        const result = ranNum < 0.5 ? 'Head' : 'Tails' ;
+        
+        const guess = 'Tails';
+        console.log (guess === result ? 'You Win !' : 'You Lose !');
+
+    </script>
     
 </body>
 </html>
