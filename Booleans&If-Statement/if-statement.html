@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If-Statement</title>
+</head>
+<body>
+    <script>
+        true 
+        false
+
+        console.log(3>5);
+        console.log(3>5-3);
+
+        console.log(5 == '5.00');
+        console.log(5 === '5.00');
+
+        if (true) {
+            console.log ('hello')
+        };
+        if (false) {
+            console.log ('hello')
+        };
+
+        // how else work
+
+        if (true) {
+            console.log ('hello')
+        }
+        else {
+            console.log ('bye');
+        };
+         
+        if (false) {
+            console.log ('hello')
+        }
+        else {
+            console.log ('bye');
+        };
+
+        // lets do some real time examples. A person can drive or not. let pretend A person can drive if his age is >= 18 years. 
+
+        if (30>=18) {
+            console.log ('You can Drive') ;
+        } else{
+            console.log ('You cannot Drive');
+        };
+
+        if (17>=18) {
+            console.log ('You can Drive') ;
+        } else{
+            console.log ('You cannot Drive');
+        };
+
+        if (17>=18) {
+            console.log ('You can Drive') ;
+        } else if (18>=18) {
+            console.log ('You can Drive') ;
+        } 
+        else{
+            console.log ('You cannot Drive');
+        };
+
+        // lets just combined this with vabiable and if-Statement
+
+        const age = 16 ;
+
+        if (age>=18) {
+            console.log ('You can Drive') ;
+        } else{
+            console.log ('You cannot Drive');
+        };
+
+    </script>
+    
+</body>
+</html>
