@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+        // const product = {
+        //     name : 'socks' ,
+        //     price : 1090 
+        // }
+        // console.log (product);
+        // console.log (product.name);
+        // console.log(product.price);
+
+        // // we can change the value 
+
+        // product.name = 'pants' ;
+        // console.log (product); 
+
+        // // we can add new values also that doesnt exist
+
+        // product.newprod = true ;
+        // console.log(product);
+
+        // // also we can delete by using 
+
+        // delete product.newprod ;
+        // console.log (product);
+            ratings : {
+                star:4.5 ,
+                count: 80 
+            },
+            fun: function function1 () {
+                console.log('funtion inside objects');
+            }
+        }
+        console.log(product.name);
+        console.log(product['delivery-time']);
+        console.log(product.ratings);
+        console.log(product.ratings.count);
+
+         product.fun ();
+         
+        //  JSON is a buit in objects
+
+         console.log(JSON.stringify(product));
+
+        //  JSON to JS object convert.
+        // JSON.parse(we will put JSONstring here );
+
+        const jsonString = JSON.stringify(product);
+        console.log(JSON.parse(jsonString));
+    </script>
+</body>
+</html>
