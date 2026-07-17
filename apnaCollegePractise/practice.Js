@@ -10,7 +10,7 @@
 
 // // Question-02
 
-// let score = 55 ;
+// let score = prompt('Enter your number:');
 
 // if (score >=90 && score <=100) {
 //     Grade = "A";
