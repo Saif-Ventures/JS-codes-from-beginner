@@ -56,4 +56,39 @@
 
     // console.log("Congratulation you guess the correct number.");
 
+    // PRACTICE FOR  ARRAYS
+
+    //QUESTION-01 : FOR GIVEN A ARRAYS MARKS OF STUDENT >> [85,97,44,37,76,60], FIND THE AVARAGE OF THIS .
+
+    // let stMarks = [85,97,44,37,76,60];
+    // let sum = 0 ;
+    // for(let val of stMarks){
+    //     sum += val ;
+    // }
+    // let avg = sum / stMarks.length
+    //  console.log(`The avarage mark of the class = ${avg}`) ;
+
+    //QUESTION-02 : FOR GIVER ARRAYS OF PRICE LIST >> [250,645,300,900,50] . ALL ITEMS HAVE 10% OFF , CHANGE THE AARRAY  TO STORE FINAL PRICE OF THE ITEMS.
+
+    let items = [250,645,300,900,50];
+    // let i = 0;
+    // for (let val of items){
+    //     console.log(`The price before offer = ${val}`);
+    //     let offer = val / 10 ;
+    //     items[i] = items[i] - offer ;
+    //     console.log(`The price after offer = ${items[i]}`);  
+    //     i++;
+    // }
+
+    //with for loop  
+
+    // for (let i = 0; i < items.length; i++) {
+    // console.log(`Before offer = ${items[i]}`);
+
+    // let offer = items[i] / 10;
+    // items[i] = items[i] - offer;
+
+    // console.log(`After offer = ${items[i]}`);
+    // } 
+
     
