@@ -91,4 +91,66 @@
     // console.log(`After offer = ${items[i]}`);
     // } 
 
-    
+    // FUNCTION PRACTICE
+
+    //QUES-01 : create a function using a function keyword that takes a string as an arguement and returns the number of vowel in the string .
+
+    //  function countVowel(str){
+    //     let count = 0;
+    //     for(const char of str){
+    //         if(char === "a" || char === "e" || char === "i" || char ===  "o" || char === "u"){
+    //             count ++;
+    //         }
+    //     }
+    //     return count;
+    //  }
+    //  countVowel("How are  you");
+
+     //This similar question solving with arrow function 
+
+    //  const vowl = (char)=>{
+    //     let count = 0;
+    //     for(const char of str){
+    //         if(char === "a" || char === "e" || char === "i" || char ===  "o" || char === "u"){
+    //             count ++;
+    //         }
+    //     }
+    //     return count;
+    //  }
+
+    // Ques-02 : for given array of numbers,print the squar of each value Using each Loop .
+
+    // let num = [1,2,3,4,5,6]; 
+     
+    // num.forEach((val)=>{
+    //     console.log(val*val);
+    // });
+
+    //Ques-03 : For given array of student marks , filter out OF THE MARKS scores 90+.
+
+    // let marks = [87,99,44,66,70,91,90];
+
+    // let toppers = marks.filter((val)=>{
+    //    return val > 90 ;
+    // });
+    // console.log(toppers);
+
+    //Ques-04 :**Qs.** Take a number **n** as input from the user. Create an array of numbers from **1** to **n**.Use the **reduce()** method to calculate the **sum** of all numbers in the array.Use the **reduce()** method to calculate the **product** of all numbers in the array.
+
+    let n = prompt("Enter a number");
+    let arr = [];
+    for(let i =1 ; i<=n; i++){
+        arr[i-1]= i ;
+    }
+
+    let sum = arr.reduce((prev,now)=>{
+        return prev + now ;
+    })
+    console.log("sum=",sum);
+
+    let factorial = arr.reduce((prev,now)=>{
+        return prev * now ;
+    })
+    console.log("factorial=", factorial);
+
+
