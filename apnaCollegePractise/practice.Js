@@ -137,20 +137,39 @@
 
     //Ques-04 :**Qs.** Take a number **n** as input from the user. Create an array of numbers from **1** to **n**.Use the **reduce()** method to calculate the **sum** of all numbers in the array.Use the **reduce()** method to calculate the **product** of all numbers in the array.
 
-    let n = prompt("Enter a number");
-    let arr = [];
-    for(let i =1 ; i<=n; i++){
-        arr[i-1]= i ;
-    }
+    // let n = prompt("Enter a number");
+    // let arr = [];
+    // for(let i =1 ; i<=n; i++){
+    //     arr[i-1]= i ;
+    // }
 
-    let sum = arr.reduce((prev,now)=>{
-        return prev + now ;
-    })
-    console.log("sum=",sum);
+    // let sum = arr.reduce((prev,now)=>{
+    //     return prev + now ;
+    // })
+    // console.log("sum=",sum);
 
-    let factorial = arr.reduce((prev,now)=>{
-        return prev * now ;
-    })
-    console.log("factorial=", factorial);
+    // let factorial = arr.reduce((prev,now)=>{
+    //     return prev * now ;
+    // })
+    // console.log("factorial=", factorial);
 
 
+    // DOM practice 
+
+    // Question-01 : create a h2 heading write Hello JavaScript . Append "from Apna College" with JS.
+
+    // let heading = document.querySelector("h2");
+    // console.dir(heading.innerText);
+    // heading.innerText = `${heading.innerText}  from Apna college`;
+
+    // Question: create 3 divs with same class name "box". Access theme and add some uniqe text each of them .
+
+    // let div = document.querySelectorAll(".box");
+    // // div[0].innerText= "value of div 1";
+    // // div[1].innerText= "value of div 2";
+    // // div[2].innerText= "value of div 3"; // this is okay but we always use loops here to access all arrays.
+    // let idx = 1 ;
+    // for ( divs of div){
+    //     divs.innerText = `New value ${idx}`;
+    //     idx++;
+    // } // this is a proper way. 
