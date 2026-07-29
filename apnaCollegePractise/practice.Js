@@ -173,3 +173,18 @@
     //     divs.innerText = `New value ${idx}`;
     //     idx++;
     // } // this is a proper way. 
+
+    // Qs. Create a new button element. Give it a text "click me", background color of red & text color of white.Insert the button as the first element inside the body tag.
+
+    let bttn = document.createElement("button");
+    bttn.innerText = "click me";
+    bttn.style.backgroundColor="red";
+    bttn.style.color="white";
+    document.querySelector("body").prepend(bttn);
+
+//Qs. Create a <p> tag in html, give it a class & some styling.Now create a new class in CSS and try to append this class to the <p> element.Did you notice, how you overwrite the class name when you add a new one.Solve this problem using classList.
+
+
+let para = document.querySelector("p");
+// para.setAttribute("class","newClass"); //this replaces class not
+para.classList.add("newClass");
