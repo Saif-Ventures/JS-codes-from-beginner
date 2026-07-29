@@ -70,7 +70,7 @@
 
     //QUESTION-02 : FOR GIVER ARRAYS OF PRICE LIST >> [250,645,300,900,50] . ALL ITEMS HAVE 10% OFF , CHANGE THE AARRAY  TO STORE FINAL PRICE OF THE ITEMS.
 
-    let items = [250,645,300,900,50];
+    // let items = [250,645,300,900,50];
     // let i = 0;
     // for (let val of items){
     //     console.log(`The price before offer = ${val}`);
@@ -176,15 +176,39 @@
 
     // Qs. Create a new button element. Give it a text "click me", background color of red & text color of white.Insert the button as the first element inside the body tag.
 
-    let bttn = document.createElement("button");
-    bttn.innerText = "click me";
-    bttn.style.backgroundColor="red";
-    bttn.style.color="white";
-    document.querySelector("body").prepend(bttn);
+    //     let bttn = document.createElement("button");
+    //     bttn.innerText = "click me";
+    //     bttn.style.backgroundColor="red";
+    //     bttn.style.color="white";
+    //     document.querySelector("body").prepend(bttn);
 
-//Qs. Create a <p> tag in html, give it a class & some styling.Now create a new class in CSS and try to append this class to the <p> element.Did you notice, how you overwrite the class name when you add a new one.Solve this problem using classList.
+    // //Qs. Create a <p> tag in html, give it a class & some styling.Now create a  new class in CSS and try to append this class to the <p> element.Did you     notice, how you overwrite the class name when you add a new one.Solve this problem using classList.
 
 
-let para = document.querySelector("p");
-// para.setAttribute("class","newClass"); //this replaces class not
-para.classList.add("newClass");
+    // let para = document.querySelector("p");
+    // // para.setAttribute("class","newClass"); //this replaces class not
+    // para.classList.add("newClass");
+
+    // EVnts practice 
+
+    // Qs. Create a toggle button that changes the screen to dark-mode when clicked & light-mode when clicked again.
+
+    // let btn = document.querySelector("button");
+    // let body = document.querySelector("body");
+
+    // let current = "light";
+    // btn.addEventListener("click",()=>{
+    //     if(current === "light"){
+    //         current = "Dark"
+    //         body.classList.add("dark");
+    //         body.classList.remove("light");
+    //     } else {
+    //         current = "light"
+    //         body.classList.add("light");
+    //         body.classList.remove("dark");
+    //     }
+    //     console.log (current);
+    // });
+
+
+        
